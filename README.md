@@ -2,25 +2,17 @@
 
 1) run_analysis.R : contain the code for performing the analysis;
 
-2) \test: folder contains the testing data
+2) project.txt: the final tidy data set of this project
 
-3) \traing: folder contains the training data
+3) README.md: this file
 
-4) activity_labels.txt: name of the activities
-
-5) features.txt: list of features in original data set
-
-6) features_info.txt: description of features in the original data set
-
-7) project.txt: the final tidy data set of this project
-
-8) README.md: this file
-
-9) README.txt: original readme file
-
-10) code_book.txt: description of the features in the final data set.
+4) code_book.txt: description of the features in the final data set.
 
 ## Execution of run_analysis.R
+First of all, we need to copy the run_analysis.R into the folder of the data source ( inside folder "\UCI HAR Dataset"; same level as folders "\test" and "\train").
+
+Run the analysis file, the final tidy data set is written to file " project.txt"
+
 The analysis procedure are commented in the run_analysis.R file with the step's index relevant to the following descriptions:
 
 
